@@ -286,6 +286,9 @@ body {
     font-size: 18px;
     font-weight: 500;
   }
+  .social {
+    justify-content: space-between;
+  }
 }
 @-webkit-keyframes animation {
   0% {
