@@ -95,7 +95,8 @@ body {
 
     &__list li::before {
         content: "";
-        display: block;
+        display: flex;
+        flex-shrink: 0;
         width: 24px;
         height: 24px;
         background-color: $purple;
