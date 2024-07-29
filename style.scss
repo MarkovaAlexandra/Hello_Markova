@@ -62,7 +62,8 @@ body {
     }
 
     &__text {
-
+        text-indent: 30px;
+        text-align: justify;
         font-size: 26px;
         line-height: 50px;
         margin-bottom: 30px;
@@ -330,6 +331,14 @@ body {
 
 @media(max-width:475px) {
     .about {
+        &__info {
+            flex-wrap: wrap;
+        }
+
+        &__picture {
+            width: 55%;
+        }
+
         &__text {
             font-size: 16px;
             line-height: 22px;
@@ -344,6 +353,7 @@ body {
     .heading {
         font-size: 24px;
         padding-left: 30px;
+        font-weight: 700;
     }
 
     .skill__name {
@@ -351,6 +361,7 @@ body {
         font-weight: 500;
     }
 }
+
 
 @keyframes animation {
     0% {
