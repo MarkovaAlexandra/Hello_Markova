@@ -45,6 +45,14 @@ body {
   line-height: 70px;
   font-weight: 700;
   text-align: center;
+  -webkit-animation-name: left-appearance;
+          animation-name: left-appearance;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 .about__picture {
   padding: 30px;
@@ -314,5 +322,25 @@ body {
   }
   100% {
     right: 0;
+  }
+}
+@-webkit-keyframes left-appearance {
+  0% {
+    left: -800px;
+    top: 100px;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+@keyframes left-appearance {
+  0% {
+    left: -800px;
+    top: 100px;
+  }
+  100% {
+    left: 0;
+    top: 0;
   }
 }/*# sourceMappingURL=style.css.map */
