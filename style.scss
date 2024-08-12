@@ -59,6 +59,12 @@ body {
 
     &__picture img {
         border-radius: 50%;
+        transition: transform 0.5s ease-in-out;
+
+    }
+
+    &__picture:hover img {
+        transform: scale(1.5);
     }
 
     &__text {
